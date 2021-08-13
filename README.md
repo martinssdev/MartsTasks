@@ -1,13 +1,11 @@
-# randomspython
-
-projetos aleatórios feitos em python por mim
-
-Projetos feitos até agora:
-
-1-
+# To do List em python
+- version 0.1
+- author: Adriel Alberto Martins
 
 
-Trabalhando atualmente em:
+# Objetivo:
+- Um app de produtividade para o que fazer na semana, e também um de coisas pra fazer no dia
 
-To do List em python
+
+
 
