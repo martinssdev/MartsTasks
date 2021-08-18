@@ -2,77 +2,88 @@
 # v0.1
 
 domingo = [
+
     '0-IVC 4Hrs',
     '1-Inglês 1 unidade',
     '2-20min Leitura - Livro da Economia',
     '3-30min Halliday',
     '4-1partida de lol',
-    '5-3partidas xadrez blitz'
+    '5-3partidas xadrez blitz',
+    '6-2hrs linux'
 
 
 
 ]
 
 segunda = [
-    '0-4hrs Dinâmica não Linear',
+
+    '0-4hrs Igd',
     '1-20min Leitura - Caos James Gleick',
     '2-1Unidade espanhol',
     '3-30min Iezzi',
     '4-1partida lol',
-    '5-3partidas xadrez blitz'
+    '5-3partidas xadrez blitz',
+    '6-2hrs python'
 
 ]
 
 
 terça = [
     '0-Violino 30min',
-    '1-Great Gatsby 20min',
     '2-IVC 4Hrs',
     '3-3partidas de xadrez blitz',
     '4-1partida de lol',
-    '5-1unidade inglês']
+    '5-1unidade inglês',
+    '6-2hrs Devweb'
+    
+    ]
 
 quarta = [
-    '0-4Hrs ivc',
+    
+    '0-4Hrs IGD',
     '1-1unidade Espanhol',
     '2-1partida de lol',
-    '3-3partidas blitz'
-
+    '3-3partidas blitz',
+    '4-20min - Livro da economia',
+    '5-2hrs Linux'
 
 ]
 
 
 quinta = [
-    '0-4hrs Igd',
+
+    '0-4hrs IVC',
     '1-1unidade inglês',
     '2-20min Leitura - Código Limpo',
     '3-30min guidorizzi',
     '4-1partida de Lol',
-    '5-3partidas blitz xadrez'
-
+    '5-3partidas blitz xadrez',
+    '6- 2hrs Latex'
 
 
 ]
 
 
 sexta = [
-    '0-4hrs Igd',
-    '1-20min Leitura - Bíblia do Linux',
-    '2-1unidade espanhol',
-    '3-30min Python',
-    '4-1partida de Lol',
-    '5-3partidas xadrez blitz'
 
+    '0-4hrs igd',
+    '1-1unidade espanhol',
+    '2-1partida de Lol',
+    '3-3partidas xadrez blitz',
+    '4-2hrs Python',
+    '5-20min livro da economia'
 ]
 
 
 sabado = [
-    '0-4Hrs Dinâmica não linear',
-    '1- 1unidade inglês',
-    '2- 20min Leitura- Livro da Economia',
-    '3-30min Xadrez',
-    '4-1partida de LOl',
-    '5-3partidas xadrez blitz'
+
+    '0- 1unidade inglês',
+    '1- 20min Leitura- Livro da Economia',
+    '2-30min Xadrez',
+    '3-1partida de LOl',
+    '4-3partidas xadrez blitz',
+    '5- 4hrs IVC',
+    '6-2hrs devWeb'
 
 ]
 
