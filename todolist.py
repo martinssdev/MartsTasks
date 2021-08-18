@@ -9,7 +9,8 @@ domingo = [
     '3-30min Halliday',
     '4-1partida de lol',
     '5-3partidas xadrez blitz',
-    '6-2hrs linux'
+    '6-2hrs linux',
+    '7-20min guia suno'
 
 
 
@@ -34,7 +35,9 @@ terça = [
     '3-3partidas de xadrez blitz',
     '4-1partida de lol',
     '5-1unidade inglês',
-    '6-2hrs Devweb'
+    '6-2hrs Devweb',
+    '7-20min livro da economia',
+    '8-20min guia suno'
     
     ]
 
@@ -45,7 +48,8 @@ quarta = [
     '2-1partida de lol',
     '3-3partidas blitz',
     '4-20min - Livro da economia',
-    '5-2hrs Linux'
+    '5-2hrs Linux',
+    '6-20min Guia Suno ações'
 
 ]
 
@@ -71,7 +75,8 @@ sexta = [
     '2-1partida de Lol',
     '3-3partidas xadrez blitz',
     '4-2hrs Python',
-    '5-20min livro da economia'
+    '5-20min livro da economia',
+    '6-20min guia suno ações'
 ]
 
 
@@ -83,7 +88,8 @@ sabado = [
     '3-1partida de LOl',
     '4-3partidas xadrez blitz',
     '5- 4hrs IVC',
-    '6-2hrs devWeb'
+    '6-2hrs devWeb',
+    '7-20min guia suno ações'
 
 ]
 
