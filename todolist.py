@@ -62,7 +62,6 @@ quinta = [
     '3-30min guidorizzi',
     '4-1partida de Lol',
     '5-3partidas blitz xadrez',
-    '6- 2hrs Latex'
 
 
 ]
