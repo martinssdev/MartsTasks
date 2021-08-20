@@ -2,8 +2,10 @@
 # v0.1
 
 # IDEIAS: 
+#Corrigir a questão do INDEX!!!!!
 # USER_PROFILE()
 # TEMPO DE USO ATÉ CONCLUIR AS ATIVIDADES COM IMPORT TIME
+import functions as f
 
 
 domingo = [
@@ -98,6 +100,21 @@ sabado = [
 ]
 
 
+
+
+
+
+
+class Dia():
+    """Classe para o Dia da semana"""
+    def __init__(self,nome):
+        """Inicialização do dia"""
+        self.nome = nome
+        
+
+
+
+
 program_active = True
 
 
@@ -108,56 +125,51 @@ while program_active == True:
 
     if dia == 'domingo':
         
-        print('Domingo:\n')
-        for item in domingo:
-            print(item)
+        print(dia.title() + ":")
+        f.show_atividades(domingo)
 
-        bl2 = input("Alguma atividade concluida?\n")
-        if bl2 == 's':
+        atividadeConcluida = input("Alguma atividade concluida?\n")
+        if atividadeConcluida == 's':
 
             numeroDaAtividade = input("Qual atividade?\n")
-            domingo.pop(int(numeroDaAtividade))
+            f.remove_atividade(domingo,numeroDaAtividade)
                
 
     if dia == 'segunda':
 
-        print("Segunda feira\n")
-        for item in segunda:
-            print(item)
+        print(dia.title() + ":")
+        f.show_atividades(segunda)
 
-        bl2 = input("Alguma atividade concluida?\n")
-        if bl2 == 's':
+        atividadeConcluida = input("Alguma atividade concluida?\n")
+        if atividadeConcluida == 's':
 
             numeroDaAtividade = input("Qual atividade?\n")
-            segunda.pop(int(numeroDaAtividade))
-            
+            f.remove_atividade(segunda,numeroDaAtividade)
 
 
     if dia == 'terça':
 
-        print("Terça:\n")
-        for item in terça:
-            print(item)
+        print(dia.title() + ":")
+        f.show_atividades(terça)
 
-        bl2 = input("Alguma atividade concluida?\n")
-        if bl2 == 's':
+        atividadeConcluida = input("Alguma atividade concluida?\n")
+        if atividadeConcluida == 's':
 
             numeroDaAtividade = input("Qual atividade?\n")
-            terça.pop(int(numeroDaAtividade))
+            f.remove_atividade(terça,numeroDaAtividade)
               
           
 
     if dia == 'quarta':
         
-        print('Quarta:\n')
-        for item in quarta:
-            print(item)
+        print(dia.title() + ':')
+        f.show_atividades(quarta)
         
-        bl2 = input("Alguma atividade concluida?\n")
-        if bl2 == 's':
+        atividadeConcluida = input("Alguma atividade concluida?\n")
+        if atividadeConcluida == 's':
 
             numeroDaAtividade = input("Qual atividade?\n")
-            quarta.pop(int(numeroDaAtividade))
+            f.remove_atividade(quarta,numeroDaAtividade)
             
 
 
@@ -165,15 +177,14 @@ while program_active == True:
 
     if dia == 'quinta':
 
-        print('Quinta:\n')
-        for item in quinta:
-            print(item)
+        print(dia.title() + ':')
+        f.show_atividades(quinta)
         
-        bl2 = input("Alguma atividade concluida?\n")
-        if bl2 == 's':
+        atividadeConcluida = input("Alguma atividade concluida?\n")
+        if atividadeConcluida == 's':
 
             numeroDaAtividade = input("Qual atividade?\n")
-            quinta.pop(int(numeroDaAtividade))
+            f.remove_atividade(quinta,numeroDaAtividade)
             
 
 
@@ -182,38 +193,36 @@ while program_active == True:
 
 
     if dia == 'sexta':
-        print('Sexta:\n')
-        for item in sexta:
-            print(item)
+        print(dia.title() + '')
+        f.show_atividades(sexta)
 
-        bl2 = input("Alguma atividade concluida?\n")
-        if bl2 == 's':
+        atividadeConcluida = input("Alguma atividade concluida?\n")
+        if atividadeConcluida == 's':
 
             numeroDaAtividade = input("Qual atividade?\n")
-            sexta.pop(int(numeroDaAtividade))
+            f.remove_atividade(sexta,numeroDaAtividade)
 
 
 
 
     if dia == 'sabado':
 
-        print('Sábado:\n')
-        for item in sabado:
-            print(item)
+        print(dia.title() + ':')
+        f.show_atividades(sabado)
 
-        bl2 = input("Alguma atividade concluida?\n")
-        if bl2 == 's':
+        atividadeConcluida = input("Alguma atividade concluida?\n")
+        if atividadeConcluida == 's':
 
             numeroDaAtividade = input("Qual atividade?\n")
-            sabado.pop(int(numeroDaAtividade))
+            f.remove_atividade(sabado,numeroDaAtividade)
                
 
 
 
 
-    bl1  =  input("Deseja continuar usando o MartinsTasks?\n")
+    continuarUsando  =  input("Deseja continuar usando o MartinsTasks?\n")
     
-    if bl1 == 'n':
+    if continuarUsando == 'n':
         program_active = False
 
 
