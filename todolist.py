@@ -1,6 +1,11 @@
 # To do List in python by: Martins
 # v0.1
 
+# IDEIAS: 
+# USER_PROFILE()
+# TEMPO DE USO ATÉ CONCLUIR AS ATIVIDADES COM IMPORT TIME
+
+
 domingo = [
 
     '0-IVC 4Hrs',
