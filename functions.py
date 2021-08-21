@@ -8,10 +8,6 @@ def show_atividades(lista):
         print(item)
 
 
-hoje = ['ativ1','ativ2','ativ3']
-
-remove_atividade(hoje,2)
-print(hoje)
 
 
 
