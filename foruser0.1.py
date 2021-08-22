@@ -148,10 +148,11 @@ while program_active == True:
 
 
 
-    bl1  =  input("Deseja continuar usando o MartinsTasks?\n")
+    continuarUsando  =  input("Deseja continuar usando o MartinsTasks?\n")
     
-    if bl1 == 'n':
+    if continuarUsando == 'n':
         program_active = False
+
 
 
 
