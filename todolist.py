@@ -2,7 +2,6 @@
 # v0.1
 
 # IDEIAS: 
-#Corrigir a questão do INDEX!!!!!
 # USER_PROFILE()
 # TEMPO DE USO ATÉ CONCLUIR AS ATIVIDADES COM IMPORT TIME
 import functions as f
@@ -10,14 +9,14 @@ import functions as f
 
 domingo = [
 
-    '0-IVC 4Hrs',
-    '1-Inglês 1 unidade',
-    '2-20min Leitura - Livro da Economia',
-    '3-30min Halliday',
-    '4-1partida de lol',
-    '5-3partidas xadrez blitz',
-    '6-2hrs linux',
-    '7-20min guia suno'
+    'IVC 4Hrs',
+    'Inglês 1 unidade',
+    '20min Leitura - Livro da Economia',
+    '30min Halliday',
+    '1partida de lol',
+    '3partidas xadrez blitz',
+    '2hrs linux',
+    '20min guia suno'
 
 
 
