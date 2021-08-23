@@ -24,50 +24,50 @@ domingo = [
 
 segunda = [
 
-    '0-4hrs Igd',
-    '1-20min Leitura - Caos James Gleick',
-    '2-1Unidade espanhol',
-    '3-30min Iezzi',
-    '4-1partida lol',
-    '5-3partidas xadrez blitz',
-    '6-2hrs python'
+    '4hrs Igd',
+    '20min Leitura - Caos James Gleick',
+    '1Unidade espanhol',
+    '30min Iezzi',
+    '1partida lol',
+    '3partidas xadrez blitz',
+    '2hrs python'
 
 ]
 
 
 terça = [
-    '0-Violino 30min',
-    '2-IVC 4Hrs',
-    '3-3partidas de xadrez blitz',
-    '4-1partida de lol',
-    '5-1unidade inglês',
-    '6-2hrs Devweb',
-    '7-20min livro da economia',
-    '8-20min guia suno'
+    'Violino 30min',
+    'IVC 4Hrs',
+    '3partidas de xadrez blitz',
+    '1partida de lol',
+    '1unidade inglês',
+    '2hrs Devweb',
+    '20min livro da economia',
+    '20min guia suno'
     
     ]
 
 quarta = [
     
-    '0-4Hrs IGD',
-    '1-1unidade Espanhol',
-    '2-1partida de lol',
-    '3-3partidas blitz',
-    '4-20min - Livro da economia',
-    '5-2hrs Linux',
-    '6-20min Guia Suno ações'
+    '4Hrs IGD',
+    '1unidade Espanhol',
+    '1partida de lol',
+    '3partidas blitz',
+    '20min - Livro da economia',
+    '2hrs Linux',
+    '20min Guia Suno ações'
 
 ]
 
 
 quinta = [
 
-    '0-4hrs IVC',
-    '1-1unidade inglês',
-    '2-20min Leitura - Código Limpo',
-    '3-30min guidorizzi',
-    '4-1partida de Lol',
-    '5-3partidas blitz xadrez',
+    '4hrs IVC',
+    '1unidade inglês',
+    '20min Leitura - Código Limpo',
+    '30min guidorizzi',
+    '1partida de Lol',
+    '3partidas blitz xadrez',
 
 
 ]
@@ -75,26 +75,26 @@ quinta = [
 
 sexta = [
 
-    '0-4hrs igd',
-    '1-1unidade espanhol',
-    '2-1partida de Lol',
-    '3-3partidas xadrez blitz',
-    '4-2hrs Python',
-    '5-20min livro da economia',
-    '6-20min guia suno ações'
+    '4hrs igd',
+    '1unidade espanhol',
+    '1partida de Lol',
+    '3partidas xadrez blitz',
+    '2hrs Python',
+    '20min livro da economia',
+    '20min guia suno ações'
 ]
 
 
 sabado = [
 
-    '0- 1unidade inglês',
-    '1- 20min Leitura- Livro da Economia',
-    '2-30min Xadrez',
-    '3-1partida de LOl',
-    '4-3partidas xadrez blitz',
-    '5- 4hrs IVC',
-    '6-2hrs devWeb',
-    '7-20min guia suno ações'
+    '1unidade inglês',
+    '20min Leitura- Livro da Economia',
+    '30min Xadrez',
+    '1partida de LOl',
+    '3partidas xadrez blitz',
+    '4hrs IVC',
+    '2hrs devWeb',
+    '20min guia suno ações'
 
 ]
 
