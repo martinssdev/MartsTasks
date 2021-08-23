@@ -26,7 +26,7 @@ segunda = [
 
     '4hrs Igd',
     '20min Leitura - Livro da Economia',
-    '20 min Guia Suno '
+    '20 min Guia Suno ',
     '1Unidade espanhol',
     '30min Iezzi',
     '1partida lol',
