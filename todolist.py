@@ -37,7 +37,7 @@ segunda = [
 
 
 terça = [
-    'Violino 30min',
+    
     'IVC 4Hrs',
     '3partidas de xadrez blitz',
     '1partida de lol',
