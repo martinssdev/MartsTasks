@@ -8,4 +8,10 @@
 
 
 
+# Ideias:
 
+- Profile do usuário com informações das atividades
+
+- Interface gráfica usando tkinter provavelmente
+
+- Ver como fazer pro usuário não entrar em contato direto com o código python
