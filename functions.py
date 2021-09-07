@@ -10,8 +10,34 @@ def show_atividades(lista):
     
             print(str(lista.index(item)) + " " + item)
 
-        
-hoje = ['ativ1','ativ2']
+
+def listar_atividades(lista):
+    """Listar todas as atividades"""
+    pass
+
+
+def criar_arquivo():
+    """Criar o arquivo que contém as informações do usuário"""
+    arquivoAtividades = 'arquivoAtividades.txt'
+    with open(arquivoAtividades,'w') as file_object:
+        nome = input("Digite seu Nome\n")
+        nickname = input("Digite seu nickname\n")
+        idade = input("Digite sua idade\n")
+        file_object("Infos do user:\n")
+        file_object.write("Nome:"+ nome + "\n")
+        file_object.write("User:" + nickname + "\n")
+        file_object.write("Idade:" + idade + "\n")
+
+
+def adicionar_atividades():
+    """Adiciona as atividades da semana no primeiro uso"""
+    arquivoAtividades = 'arquivoAtividades.txt'
+    with open(arquivoAtividades,'a') as file_object:
+        pass
+    
+    pass
+    
+    
 
 
 
