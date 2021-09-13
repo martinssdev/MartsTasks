@@ -1,5 +1,5 @@
 # To do List in python by: Martins
-# v0.1
+# v0.2
 
 import functions as f
 
