@@ -1,17 +1,16 @@
-# To do List em python
-- version 0.1
-- author: Adriel Alberto Martins
+# To do List in python running on terminal
+- version 0.2 
+- author: Adriel Alberto
+
+> Is working at the moment, but i need to fix the remove function ! 
+> Right now is just showing the activities of the day.
+
+# Objective:
+- A productivity app 
 
 
-# Objetivo:
-- Um app de produtividade para o que fazer na semana, e também um de coisas pra fazer no dia
+# How to use:
 
+> git clone https://github.com/martinssdev/MartsTasks.git
+> python3 main.py and enjoy! :)
 
-
-# Ideias:
-
-- Profile do usuário com informações das atividades
-
-- Interface gráfica usando tkinter provavelmente
-
-- Ver como fazer pro usuário não entrar em contato direto com o código python

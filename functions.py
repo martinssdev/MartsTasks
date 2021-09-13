@@ -1,42 +1,80 @@
 
-def remove_atividade(lista,numeroDaAtividade):
-    """Remove a atividade do dia"""
-    lista.pop(int(numeroDaAtividade))
+def remove_activities(day,activity):
+    """Remove one actvity"""
+    with open(f'{day}.txt','r') as fobj:
+        activities = fobj.readlines()
 
-def show_atividades(lista): 
-    """Mostra as atividades do dia"""
+        # FIX THIS!
 
-    for item in lista:
+
+    activities.pop(int(activity))
+
+def show_activities(day): 
+    """Show the activities of the day"""
     
-            print(str(lista.index(item)) + " " + item)
+    
+    with open(f'{day}.txt','r') as fobj:
+        activities = fobj.readlines()
+
+        for activity in activities:
+    
+            print(str(activities.index(activity)) + " -> " + activity)
 
 
-def listar_atividades(lista):
-    """Listar todas as atividades"""
+def list_activities(lista):
+    """Lists all the acticvities"""
     pass
 
 
-def criar_arquivo():
-    """Criar o arquivo que contém as informações do usuário"""
-    arquivoAtividades = 'arquivoAtividades.txt'
-    with open(arquivoAtividades,'w') as file_object:
-        nome = input("Digite seu Nome\n")
-        nickname = input("Digite seu nickname\n")
-        idade = input("Digite sua idade\n")
-        file_object("Infos do user:\n")
-        file_object.write("Nome:"+ nome + "\n")
-        file_object.write("User:" + nickname + "\n")
-        file_object.write("Idade:" + idade + "\n")
+def create_file_user():
+    """Create the archive with user info"""
+    UserInfos = 'userinfo.txt'
+    with open(UserInfos,'w') as file_object:
+        name = input("Write your name\n")
+        username = input("Write your nickname\n")
+        age = input("Write your age\n")
+        file_object.write(("Infos do user:\n"))
+        file_object.write("Name:"+ name + "\n")
+        file_object.write("Username:" + username + "\n")
+        file_object.write("Age:" + age + "\n")
 
 
-def adicionar_atividades():
-    """Adiciona as atividades da semana no primeiro uso"""
-    arquivoAtividades = 'arquivoAtividades.txt'
-    with open(arquivoAtividades,'a') as file_object:
-        pass
-    
-    pass
-    
+def greet_user():
+    userInfos = 'userinfo.txt'
+
+    try:
+        with open(userInfos,'r') as fobj:
+            
+            fobj.readlines()
+            
+                
+    except FileNotFoundError:
+            create_file_user()
+            add_activities()
+            greet_user()
+            
+    else:
+        with open(userInfos,'r') as fobj:
+            lines = fobj.readlines()
+            for line in lines:
+                print(line)
+            
+
+
+def add_activities():
+    """Add the Activities in the first use"""
+    days = ['sunday','monday','tuesday','wednesday','thursday','friday','saturday']
+
+
+    for day in days:
+        enter = ''
+        day = f'{day}.txt'
+        with open(day,'w') as fobj:
+            while enter != 'q':
+                enter = input(f"Write the activities of {day} 'q' to write for the next day\n")
+                fobj.write(enter + "\n")
+
+ 
     
 
 
