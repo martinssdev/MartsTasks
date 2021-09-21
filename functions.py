@@ -75,6 +75,12 @@ def add_activities():
                 fobj.write(enter + "\n")
 
  
+def check_event(keyword):
+    """Checar o que o usuário digita"""
+    if keyword == 'q':
+        return False
+    else:
+        return True    
     
 
 
