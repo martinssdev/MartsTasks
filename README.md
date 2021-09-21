@@ -2,7 +2,7 @@
 - version 0.2 
 - author: Adriel Alberto
 
-> Is working at the moment, but i need to fix the remove function ! 
+> Is working at the moment, but i need to fix the remove function ! <br>
 > Right now is just showing the activities of the day.
 
 # Objective:
@@ -11,6 +11,6 @@
 
 # How to use:
 
-> git clone https://github.com/martinssdev/MartsTasks.git
+> git clone https://github.com/martinssdev/MartsTasks.git <br>
 > python3 main.py and enjoy! :)
 
