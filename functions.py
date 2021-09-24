@@ -18,7 +18,7 @@ def show_activities(day):
 
         for activity in activities:
     
-            print(str(activities.index(activity)) + " -> " + activity)
+            print(str(activities.index(activity)).strip() + " -> " + activity)
 
 
 def list_activities(lista):
