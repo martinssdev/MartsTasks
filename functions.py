@@ -75,14 +75,22 @@ def add_activities():
                 fobj.write(enter + "\n")
 
  
-def check_event(keyword):
-    """Checar o que o usuário digita"""
+def quit_program(keyword):
+    """Quit program"""
     if keyword == 'q':
         return False
     else:
         return True    
     
+def menu(key):
+    """Action menu for the user"""
+    #1 - Did some activity of the day #number activity to remove
+    #2 - 
+    #3
+    #4
 
-
-
+    
+    if not quit_program(key):
+        return False
+    return True
 

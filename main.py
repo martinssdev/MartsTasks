@@ -14,9 +14,9 @@ def main():
     
     with open(f'{day}.txt','r') as fobj:
             f.show_activities(day) # NÃO SEI TB SE PRECISO DEIXAR ESSE WHILE DENTRO DO OPEN FILE, ACREDITO Q N
-            keyword = 't' # resolver isso dps 
-            while f.check_event(keyword):
-               keyword = input("Digite 'q' para sair do programa\n")
+            key = 't' # resolver isso dps 
+            while f.menu(key):
+               key= input("Digite 'q' para sair do programa\n")
     
         
             
